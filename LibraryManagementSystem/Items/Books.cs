@@ -1,3 +1,4 @@
+using LibraryManagementSystem.Enum;
 using LibraryManagementSystem.Interfaces;
 
 namespace LibraryManagementSystem.Items
@@ -21,7 +22,17 @@ namespace LibraryManagementSystem.Items
 
         void INotifiable.Notification(string message)
         {
-            System.Console.WriteLine("Notification Sent");
+            System.Console.WriteLine("Book Booked");
+        }
+
+        void INotifiable.Notification(UserRole role)
+        {
+            if (role.Equals(UserRole.Admin))
+            {   
+                System.Console.WriteLine("System maintainence needed");
+            }else if(role.Equals(UserRole.Member)){
+                    System.Console.WriteLine("Due date is near.");
+                }
+            }
         }
     }
-}

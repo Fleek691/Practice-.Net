@@ -1,3 +1,5 @@
+using LibraryManagementSystem.Enum;
+
 namespace LibraryManagementSystem.Items
 {
     public abstract class LibraryItem{
@@ -6,5 +8,6 @@ namespace LibraryManagementSystem.Items
         public int ItemID{get;set;}
         public abstract void GetItemDetails();
         public abstract void CalculateLateFee(int days);
+        public ItemStatus Status{get;set;}
     }
 }
