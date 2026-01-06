@@ -1,0 +1,15 @@
+C:\Users\avish\Desktop\Practice\OfficeTracker\bin\Debug\net10.0\OfficeTracker.exe
+C:\Users\avish\Desktop\Practice\OfficeTracker\bin\Debug\net10.0\OfficeTracker.deps.json
+C:\Users\avish\Desktop\Practice\OfficeTracker\bin\Debug\net10.0\OfficeTracker.runtimeconfig.json
+C:\Users\avish\Desktop\Practice\OfficeTracker\bin\Debug\net10.0\OfficeTracker.dll
+C:\Users\avish\Desktop\Practice\OfficeTracker\bin\Debug\net10.0\OfficeTracker.pdb
+C:\Users\avish\Desktop\Practice\OfficeTracker\obj\Debug\net10.0\OfficeTracker.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\avish\Desktop\Practice\OfficeTracker\obj\Debug\net10.0\OfficeTracker.AssemblyInfoInputs.cache
+C:\Users\avish\Desktop\Practice\OfficeTracker\obj\Debug\net10.0\OfficeTracker.AssemblyInfo.cs
+C:\Users\avish\Desktop\Practice\OfficeTracker\obj\Debug\net10.0\OfficeTracker.csproj.CoreCompileInputs.cache
+C:\Users\avish\Desktop\Practice\OfficeTracker\obj\Debug\net10.0\OfficeTracker.sourcelink.json
+C:\Users\avish\Desktop\Practice\OfficeTracker\obj\Debug\net10.0\OfficeTracker.dll
+C:\Users\avish\Desktop\Practice\OfficeTracker\obj\Debug\net10.0\refint\OfficeTracker.dll
+C:\Users\avish\Desktop\Practice\OfficeTracker\obj\Debug\net10.0\OfficeTracker.pdb
+C:\Users\avish\Desktop\Practice\OfficeTracker\obj\Debug\net10.0\OfficeTracker.genruntimeconfig.cache
+C:\Users\avish\Desktop\Practice\OfficeTracker\obj\Debug\net10.0\ref\OfficeTracker.dll
