@@ -46,8 +46,19 @@
         #endregion
     
         #region Interface
-        Customer c1=new Customer();
-        c1.GetName();
+        // Customer c1=new Customer();
+        // c1.GetName();
+        #endregion
+
+        #region ExplicitInterface
+        
+    
+        Explicit e=new Explicit();
+        ((I2)e).GetName();
+        ((I1)e).GetName();
+        I1 a=e;
+        a.GetName();
+        
         #endregion
     }
 }

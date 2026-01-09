@@ -1,0 +1,15 @@
+C:\Users\avish\Desktop\Practice\Ques\bin\Debug\net10.0\Ques.exe
+C:\Users\avish\Desktop\Practice\Ques\bin\Debug\net10.0\Ques.deps.json
+C:\Users\avish\Desktop\Practice\Ques\bin\Debug\net10.0\Ques.runtimeconfig.json
+C:\Users\avish\Desktop\Practice\Ques\bin\Debug\net10.0\Ques.dll
+C:\Users\avish\Desktop\Practice\Ques\bin\Debug\net10.0\Ques.pdb
+C:\Users\avish\Desktop\Practice\Ques\obj\Debug\net10.0\Ques.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\avish\Desktop\Practice\Ques\obj\Debug\net10.0\Ques.AssemblyInfoInputs.cache
+C:\Users\avish\Desktop\Practice\Ques\obj\Debug\net10.0\Ques.AssemblyInfo.cs
+C:\Users\avish\Desktop\Practice\Ques\obj\Debug\net10.0\Ques.csproj.CoreCompileInputs.cache
+C:\Users\avish\Desktop\Practice\Ques\obj\Debug\net10.0\Ques.sourcelink.json
+C:\Users\avish\Desktop\Practice\Ques\obj\Debug\net10.0\Ques.dll
+C:\Users\avish\Desktop\Practice\Ques\obj\Debug\net10.0\refint\Ques.dll
+C:\Users\avish\Desktop\Practice\Ques\obj\Debug\net10.0\Ques.pdb
+C:\Users\avish\Desktop\Practice\Ques\obj\Debug\net10.0\Ques.genruntimeconfig.cache
+C:\Users\avish\Desktop\Practice\Ques\obj\Debug\net10.0\ref\Ques.dll

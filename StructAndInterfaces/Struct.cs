@@ -37,6 +37,6 @@ public struct Customer :ICustomer2
 
     public void GetName2()
     {
-        System.Console.WriteLine("Second method from parent interface");
+        System.Console.WriteLine("Second method from parent interface                                                                                                               ");
     }
 }
