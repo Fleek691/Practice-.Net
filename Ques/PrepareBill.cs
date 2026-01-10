@@ -21,6 +21,40 @@ class Commodity
 
 class PrepareBill
 {
-    IDictionary<CommodityCategory,double> _taxRates{get;}
-    
+    private readonly IDictionary<CommodityCategory,double> _taxRates;
+    public PrepareBill(IDictionary<CommodityCategory,double> TaxRates)
+    {
+        this._taxRates=TaxRates;
+    }
+    public void SetTaxrates(CommodityCategory category, double TaxRates)
+    {
+        if (this._taxRates.ContainsKey(category))
+        {
+            this._taxRates[category]=TaxRates;
+        }
+        else
+        {
+            this._taxRates.Add(category,TaxRates);
+        }
+    }
+
+    public double CalculateBillAMount(IList<Commodity> items)
+    {
+        double billAmount=0;
+        foreach(var item in items)
+        {
+            if (this._taxRates.ContainsKey(item.Category))
+            {
+                double baseAmount=item.CommodityPrice*item.CommodityQuantity;
+                double tax=baseAmount*this._taxRates[item.Category]/100;
+                billAmount=billAmount+(baseAmount+tax);
+            }
+            else
+            {
+                throw new ArgumentException(nameof(item));
+            }
+        }
+        return billAmount;
+        
+    }
 }

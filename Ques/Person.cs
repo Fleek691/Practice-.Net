@@ -2,8 +2,8 @@
 
 public class Person
 {
-    public string Name{get;set;}
-    public string Addres{get;set;}
+    public string? Name{get;set;}
+    public string? Addres{get;set;}
     public int Age{get;set;}
     
 }
