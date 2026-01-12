@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\avish\\Desktop\\Practice\\LibraryManagementSystem\\LibraryManagementSystem.csproj": {}
+    "c:\\Users\\avish\\Desktop\\Practice\\LibraryManagementSystem\\LibraryManagementSystem.csproj": {}
   },
   "projects": {
-    "C:\\Users\\avish\\Desktop\\Practice\\LibraryManagementSystem\\LibraryManagementSystem.csproj": {
+    "c:\\Users\\avish\\Desktop\\Practice\\LibraryManagementSystem\\LibraryManagementSystem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\avish\\Desktop\\Practice\\LibraryManagementSystem\\LibraryManagementSystem.csproj",
+        "projectUniqueName": "c:\\Users\\avish\\Desktop\\Practice\\LibraryManagementSystem\\LibraryManagementSystem.csproj",
         "projectName": "LibraryManagementSystem",
-        "projectPath": "C:\\Users\\avish\\Desktop\\Practice\\LibraryManagementSystem\\LibraryManagementSystem.csproj",
+        "projectPath": "c:\\Users\\avish\\Desktop\\Practice\\LibraryManagementSystem\\LibraryManagementSystem.csproj",
         "packagesPath": "C:\\Users\\avish\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\avish\\Desktop\\Practice\\LibraryManagementSystem\\obj\\",
+        "outputPath": "c:\\Users\\avish\\Desktop\\Practice\\LibraryManagementSystem\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\avish\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\avish\\Desktop\\Practice\\Ques\\Ques.csproj": {}
+    "c:\\Users\\avish\\Desktop\\Practice\\Ques\\Ques.csproj": {}
   },
   "projects": {
-    "C:\\Users\\avish\\Desktop\\Practice\\Ques\\Ques.csproj": {
+    "c:\\Users\\avish\\Desktop\\Practice\\Ques\\Ques.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\avish\\Desktop\\Practice\\Ques\\Ques.csproj",
+        "projectUniqueName": "c:\\Users\\avish\\Desktop\\Practice\\Ques\\Ques.csproj",
         "projectName": "Ques",
-        "projectPath": "C:\\Users\\avish\\Desktop\\Practice\\Ques\\Ques.csproj",
+        "projectPath": "c:\\Users\\avish\\Desktop\\Practice\\Ques\\Ques.csproj",
         "packagesPath": "C:\\Users\\avish\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\avish\\Desktop\\Practice\\Ques\\obj\\",
+        "outputPath": "c:\\Users\\avish\\Desktop\\Practice\\Ques\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\avish\\AppData\\Roaming\\NuGet\\NuGet.Config",

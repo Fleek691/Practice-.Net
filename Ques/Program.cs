@@ -45,7 +45,22 @@
         #endregion
     
         #region Ques5
+         List<Student> students = new List<Student>()
+        {
+            new Student { RollNo = 1, Name = "Rahul", Marks = 85, SPortsGrade = 'A' },
+            new Student { RollNo = 2, Name = "Amit", Marks = 72, SPortsGrade = 'A' },
+            new Student { RollNo = 3, Name = "Sunil", Marks = 90, SPortsGrade = 'A' },
+            new Student { RollNo = 4, Name = "Rohit", Marks = 88, SPortsGrade = 'B' }
+        };
 
+        // 2. Create delegate object and point it to method
+        IsELigibleForScholarShip del = Program1.ScholarShipEligibility;
+
+        // 3. Call filtering method
+        string result = Student.GetEligibleStudents(students, del);
+
+        // 4. Print result
+        Console.WriteLine(result);
         #endregion
     }
 }
