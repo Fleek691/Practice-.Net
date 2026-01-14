@@ -2,6 +2,7 @@
   <Folder Name="/StructAndInterfaces/">
     <Project Path="StructAndInterfaces/Struct.csproj" />
   </Folder>
+  <Project Path="Delegates/Delegates.csproj" />
   <Project Path="LibraryManagementSystem/LibraryManagementSystem.csproj" />
   <Project Path="OfficeTracker/OfficeTracker.csproj" />
   <Project Path="Ques/Ques.csproj" />
