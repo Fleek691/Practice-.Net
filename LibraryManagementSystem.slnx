@@ -1,4 +1,7 @@
 <Solution>
+  <Folder Name="/Exceptionhandling/">
+    <Project Path="Exceptionhandling/EH.csproj" />
+  </Folder>
   <Folder Name="/StructAndInterfaces/">
     <Project Path="StructAndInterfaces/Struct.csproj" />
   </Folder>
