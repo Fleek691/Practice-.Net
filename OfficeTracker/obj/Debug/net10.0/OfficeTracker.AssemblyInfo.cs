@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OfficeTracker")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e9f553fe59277f1015516490980f8090275d1873")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1fd71db74f89fb1011fc3cd26d5928ed4ec0af96")]
 [assembly: System.Reflection.AssemblyProductAttribute("OfficeTracker")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OfficeTracker")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
