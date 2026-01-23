@@ -12,5 +12,6 @@
   <Project Path="LibraryManagementSystem/LibraryManagementSystem.csproj" />
   <Project Path="OfficeTracker/OfficeTracker.csproj" />
   <Project Path="Ques/Ques.csproj" />
+  <Project Path="M1/M1.csproj"/>
   
 </Solution>

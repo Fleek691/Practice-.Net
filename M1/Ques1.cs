@@ -24,6 +24,6 @@ class EmployeSalaryService
 
     public void SetBonusRate(Department dept,double rate)
     {
-        if(dept.)
+        // if(dept.)
     }
 }
