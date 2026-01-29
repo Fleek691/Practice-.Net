@@ -7,7 +7,7 @@ public enum Department
 
 public class Employe
 {
-    public string Name{get;set;}
+    public string? Name{get;set;}
     public Department  department{get;set;}
     public double BaseSalary{get;set;}
 
