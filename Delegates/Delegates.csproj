@@ -5,7 +5,7 @@
     <TargetFramework>net10.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartUpObject>Basic5</StartUpObject>
+    <StartUpObject>FuncUsage</StartUpObject>
   </PropertyGroup>
 
 </Project>
