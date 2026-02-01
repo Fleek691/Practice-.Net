@@ -1,4 +1,4 @@
-public delegate string Notify(string a);
+public delegate void Notify(string a);
 public class Basic3
 {
     public static void Main()
@@ -6,18 +6,18 @@ public class Basic3
         Notify notificate=Mrng;
         notificate+=Aft;
         notificate+=Even;
-        System.Console.WriteLine(notificate("Avishek"));
+        notificate("Avishek");
     }
-    public static string Mrng(string a)
+    public static void Mrng(string a)
     {
-        return "Good Morning"+a;
+        System.Console.WriteLine("Good Morning"+a);
     }
-    public static string Aft(string a)
+    public static void Aft(string a)
     {
-        return "Good Afternoon"+a;
+        System.Console.WriteLine("Good Afternonn"+a);
     }
-    public static string Even(string a)
+    public static void Even(string a)
     {
-        return "Good Evening"+" "+a;
+        System.Console.WriteLine("Good Evening"+a);
     }
 }
