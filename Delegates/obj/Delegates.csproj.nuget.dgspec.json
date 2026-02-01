@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\avish\\Desktop\\Practice\\Delegates\\Delegates.csproj": {}
+    "c:\\Users\\avish\\Desktop\\Practice\\Delegates\\Delegates.csproj": {}
   },
   "projects": {
-    "C:\\Users\\avish\\Desktop\\Practice\\Delegates\\Delegates.csproj": {
+    "c:\\Users\\avish\\Desktop\\Practice\\Delegates\\Delegates.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\avish\\Desktop\\Practice\\Delegates\\Delegates.csproj",
+        "projectUniqueName": "c:\\Users\\avish\\Desktop\\Practice\\Delegates\\Delegates.csproj",
         "projectName": "Delegates",
-        "projectPath": "C:\\Users\\avish\\Desktop\\Practice\\Delegates\\Delegates.csproj",
+        "projectPath": "c:\\Users\\avish\\Desktop\\Practice\\Delegates\\Delegates.csproj",
         "packagesPath": "C:\\Users\\avish\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\avish\\Desktop\\Practice\\Delegates\\obj\\",
+        "outputPath": "c:\\Users\\avish\\Desktop\\Practice\\Delegates\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\avish\\AppData\\Roaming\\NuGet\\NuGet.Config",

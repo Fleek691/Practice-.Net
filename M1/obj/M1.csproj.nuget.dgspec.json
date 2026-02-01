@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\avish\\Desktop\\Practice\\M1\\M1.csproj": {}
+    "c:\\Users\\avish\\Desktop\\Practice\\M1\\M1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\avish\\Desktop\\Practice\\M1\\M1.csproj": {
+    "c:\\Users\\avish\\Desktop\\Practice\\M1\\M1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\avish\\Desktop\\Practice\\M1\\M1.csproj",
+        "projectUniqueName": "c:\\Users\\avish\\Desktop\\Practice\\M1\\M1.csproj",
         "projectName": "M1",
-        "projectPath": "C:\\Users\\avish\\Desktop\\Practice\\M1\\M1.csproj",
+        "projectPath": "c:\\Users\\avish\\Desktop\\Practice\\M1\\M1.csproj",
         "packagesPath": "C:\\Users\\avish\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\avish\\Desktop\\Practice\\M1\\obj\\",
+        "outputPath": "c:\\Users\\avish\\Desktop\\Practice\\M1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\avish\\AppData\\Roaming\\NuGet\\NuGet.Config",
