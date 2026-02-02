@@ -5,7 +5,7 @@
     <TargetFramework>net10.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartUpObject>BikeProgram</StartUpObject>
+    <StartUpObject>Robot</StartUpObject>
   </PropertyGroup>
 
 </Project>

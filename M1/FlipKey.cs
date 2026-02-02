@@ -4,29 +4,31 @@ public class FlipKey
 {
     public static void Main(string[] args)
     {
-        System.Console.WriteLine("Enter the word");
+        Console.WriteLine("Enter the word");
         string input = Console.ReadLine()!;
         string result = CleanseAndInvert(input);
+
         if (string.IsNullOrEmpty(result))
         {
-            System.Console.WriteLine("Invalid Input");
+            Console.WriteLine("Invalid Input");
         }
         else
         {
-            System.Console.WriteLine($"The generated key is - {result}");
+            Console.WriteLine($"The generated key is - {result}");
         }
     }
+
+    // Validates input and processes it: filters odd ASCII chars, reverses, and capitalizes even positions
     public static string CleanseAndInvert(string input)
     {
         string result = "";
 
-        // Validation: Not null and at least 6 characters
+        // Validate: minimum 6 characters, only letters
         if (string.IsNullOrEmpty(input) || input.Length < 6)
         {
             return result;
         }
 
-        // Validation: No spaces, digits, or special characters (only letters allowed)
         foreach (char c in input)
         {
             if (!char.IsLetter(c))
@@ -35,24 +37,22 @@ public class FlipKey
             }
         }
 
-        // Convert to lowercase
         input = input.ToLower();
 
-        // Remove characters with even ASCII values
+        // Filter characters with odd ASCII values
         string filtered = "";
         foreach (char c in input)
         {
-            if ((int)c % 2 != 0)  // Keep only odd ASCII values
+            if ((int)c % 2 != 0)
             {
                 filtered += c;
             }
         }
 
-        // Reverse the string
+        // Reverse and capitalize characters at even positions
         char[] arr = filtered.ToCharArray();
         Array.Reverse(arr);
 
-        // Convert even-positioned characters (0-based) to uppercase
         for (int i = 0; i < arr.Length; i++)
         {
             if (i % 2 == 0)

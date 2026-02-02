@@ -1,69 +1,71 @@
+// Represents creator profile with engagement metrics
 public class CreatorStats
 {
     public string? CreatorName { get; set; }
-    public double[]? WeeklyLikes{get;set;} =new double[4];
-
+    public double[]? WeeklyLikes { get; set; } = new double[4];
 }
 public class StreamBuzz
 {
     public static List<CreatorStats> EngagementBoard = new List<CreatorStats>();
+
     public static void Main(string[] args)
     {
         int input;
         do
         {
-            System.Console.WriteLine("1. Register Creator");
-            System.Console.WriteLine("2. Show Top Posts");
-            System.Console.WriteLine("3. Calculate Average Likes");
-            System.Console.WriteLine("4. Exit");
-            System.Console.WriteLine("Enter your choice:");
+            Console.WriteLine("1. Register Creator");
+            Console.WriteLine("2. Show Top Posts");
+            Console.WriteLine("3. Calculate Average Likes");
+            Console.WriteLine("4. Exit");
+            Console.WriteLine("Enter your choice:");
             input = int.Parse(Console.ReadLine()!);
             CreatorStats creator = new CreatorStats();
+
             if (input == 1)
             {
-                System.Console.WriteLine("Enter Creator Name:");
+                Console.WriteLine("Enter Creator Name:");
                 creator.CreatorName = Console.ReadLine();
-                System.Console.WriteLine("Enter weekly like(Week 1 to 4):");
+                Console.WriteLine("Enter weekly like(Week 1 to 4):");
                 for (int i = 0; i < creator.WeeklyLikes!.Length; i++)
                 {
                     creator.WeeklyLikes![i] = double.Parse(Console.ReadLine()!);
                 }
-                StreamBuzz.RegisterCreator(creator);
-                System.Console.WriteLine("Creator registered successfully");
+                RegisterCreator(creator);
+                Console.WriteLine("Creator registered successfully");
             }
             else if (input == 2)
             {
-                System.Console.WriteLine("Enter like threshold:");
+                Console.WriteLine("Enter like threshold:");
                 double likeThreshold = double.Parse(Console.ReadLine()!);
-                var res = StreamBuzz.GetTopPostCounts(EngagementBoard, likeThreshold);
-                if (res.Count>0)
+                var res = GetTopPostCounts(EngagementBoard, likeThreshold);
+                if (res.Count > 0)
                 {
                     foreach (var item in res)
                     {
-                        System.Console.WriteLine($"{item.Key} - {item.Value}");
+                        Console.WriteLine($"{item.Key} - {item.Value}");
                     }
                 }
                 else
                 {
-                    System.Console.WriteLine("No top-performing posts this week");
+                    Console.WriteLine("No top-performing posts this week");
                 }
-
             }
             else if (input == 3)
             {
-                StreamBuzz.CalculateAverageLikes();
+                CalculateAverageLikes();
             }
             else if (input == 4)
             {
-
+                // Exit
             }
             else
             {
-                System.Console.WriteLine("Invalid Input");
+                Console.WriteLine("Invalid Input");
             }
         } while (input != 4);
-        System.Console.WriteLine("Logging off - Keep Creating with StreamBuzz!");
+        Console.WriteLine("Logging off - Keep Creating with StreamBuzz!");
     }
+    // Adds creator to engagement board
     public static void RegisterCreator(CreatorStats record)
     {
         if (record != null)
@@ -71,10 +73,12 @@ public class StreamBuzz
             EngagementBoard.Add(record);
         }
     }
+
+    // Returns creators with posts above like threshold
     public static Dictionary<string, int> GetTopPostCounts(List<CreatorStats> records, double likeThreshold)
     {
         Dictionary<string, int> result = new Dictionary<string, int>();
-        
+
         foreach (var item in records)
         {
             int count = 0;
@@ -92,6 +96,8 @@ public class StreamBuzz
         }
         return result;
     }
+
+    // Calculates overall average weekly likes across all creators
     public static void CalculateAverageLikes()
     {
         int count = 0;
@@ -105,6 +111,6 @@ public class StreamBuzz
             }
         }
         double result = sum / count;
-        System.Console.WriteLine("Overall average weekly likes:" + result);
+        Console.WriteLine($"Overall average weekly likes: {result}");
     }
 }
